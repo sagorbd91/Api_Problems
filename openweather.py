@@ -1,19 +1,4 @@
-# List
-"""
-trainer = ["ben finkel", "creamy ciorra"]
-thingsilove = [trainer, "chocolat", "chicken", 12]
-print(thingsilove)"""
 
-# Dictionary
-"""
-sagor = {"name": "ghosh", "age": 54, "favourite": "chokolat"}
-print(sagor)"""
-"""
-favcisco = ["show ip int brief", "show run", "show run | include router interfaces"]
-
-sagor = {"name": "ghosh", "age": 54, "favourite": "chokolat", "commands": favcisco}
-
-print(sagor["commands"])"""
 
 #openweather_api key = 1dfdaa0233fae87f58e47ba2796f12d3
 
