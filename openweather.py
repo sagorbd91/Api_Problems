@@ -21,9 +21,6 @@ print(weather["weather"][0]["description"])
 #print(weather["clouds"]["all"])
 
 
-cred = {"username": "sagor.ghosh@dal.ca", "password": "December@25"}
-url = 'http://api.openweathermap.org'
-ticket_url
 
 
 
