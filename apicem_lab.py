@@ -32,6 +32,26 @@ username = r_json['response'][0]['username']
 print(username)
 
 
+user_url = apicem_ip + "/api/" + version + "/network-device"
+headers = {"content-type":"application/json", "X-Auth-Token": ticket}
+response = resquests.get(url=user_url, headers = headers)
+
+print(response.status_code)
+r_json = response.json()
+pprint(r_json)
+
+
+mac_address = r_json['response'][0]['macAddress']
+print(mac_address)
+
+
+mac_add = []
+for item in r_json['response']:
+    mac_add.append(item['macAddress'])
+
+print(mac_add)
+
+
 
 
 
